@@ -1,0 +1,58 @@
+ .ss {
+    background-color: #a0e2ee2f;
+    padding: 10px
+}
+#kon{
+    border-style: double;
+    border-width: 20px 10px 20px 10px;
+    width: 50%
+}
+#text{
+    padding: 10px
+}
+.kvadr {
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    margin: 5px;
+    display: inline-block;
+
+}
+#kv{
+width: 300px; 
+}
+.kvadr:hover .aa{background: #f83505}
+.kvadr:hover{
+    background: #fdec00; }
+
+   .aa{
+   width:15px;
+   height:15px;
+   background:black;
+   border-radius:25px;
+   margin-left:2em;
+   margin-top: 2em;
+}
+.karta {
+border-style: solid;
+border-radius: 15px;
+text-align: center;
+width: 15%;
+height: 15%;
+box-shadow: 0 16px 28px 0 rgba(0,0,0,.22), 0 25px 55px 0 rgba(0,0,0,.21);
+}
+.karta:hover{
+    box-shadow:
+    -1px 1px rgba(0,0,0,.22),
+    -2px 2px rgba(0,0,0,.22),
+    -3px 3px rgba(0,0,0,.22),
+    -4px 4px rgba(0,0,0,.22),
+    -5px 5px rgba(0,0,0,.22),
+    -6px 6px rgba(0,0,0,.22),
+    -7px 7px rgba(0,0,0,.22);
+  -webkit-transform: translateX(15px);
+  transform: translateX(15px);
+
+    transition: 1.9s;
+
+}
